@@ -92,14 +92,14 @@
 #define X_DIR_PIN          55
 #define X_ENABLE_PIN       38
 #ifndef X_CS_PIN
-  #define X_CS_PIN         53
+  #define X_CS_PIN         59 // Prusai3clone
 #endif
 
 #define Y_STEP_PIN         60
 #define Y_DIR_PIN          61
 #define Y_ENABLE_PIN       56
 #ifndef Y_CS_PIN
-  #define Y_CS_PIN         49
+  #define Y_CS_PIN         63 // Prusai3clone
 #endif
 
 #define Z_STEP_PIN         46
@@ -279,7 +279,7 @@
 
 // define digital pin 4 for the filament runout sensor. Use the RAMPS 1.4 digital input 4 on the servos connector
 #ifndef FIL_RUNOUT_PIN
-  #define FIL_RUNOUT_PIN    4
+  #define FIL_RUNOUT_PIN    2
 #endif
 
 #ifndef PS_ON_PIN
@@ -419,8 +419,8 @@
         #define BTN_EN1         17
         #define BTN_EN2         23
       #else
-        #define BTN_EN1         31
-        #define BTN_EN2         33
+        #define BTN_EN1         33
+        #define BTN_EN2         31
       #endif
 
       #define BTN_ENC           35
