@@ -147,3 +147,7 @@ CMakeListsPrivate.txt
 
 #CLion
 cmake-build-*
+
+#VS
+.clang_complete
+.gcc-flags.json
